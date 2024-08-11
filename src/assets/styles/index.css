@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    a, i{
+        color: black;
+    }
+}
+.nav-item.active{
+    background-color: #fdc182;
+    a {
+        color: white;
+    }
+}
+.actions {
+    a, button{
+        background: none;
+        border: none;
+        color: #f06e15;
+        border-radius: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        &:hover {
+            background: none;
+            color: black;
+            border-color: #f06e15;
+        }
+    }
+    a {
+        border-right: 1px solid #f06e15;
+    }
+}
+.table{
+    border: 1px solid #dedede;
+    vertical-align: middle;
+    margin-bottom: 0;
+    tbody{
+        tr{
+            height: 65px;
+        }
+    }
+}
