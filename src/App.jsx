@@ -17,7 +17,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='product-management' element={<ProductLayout />}>
+        <Route path='' element={<ProductLayout />}>
           <Route index element={<ProductManagement />}></Route>
           <Route path='create-product' element={<CreateProduct />}></Route>
           <Route path='update-product' element={<UpdateProduct />}></Route>
